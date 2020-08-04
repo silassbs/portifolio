@@ -3,6 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Silas Barcelos | Portifólio">
+    <meta name="description" content="Conheça meu portifólio de Desenvolvedor Front-End :)">
+    <meta name="keywords" content="Portifólio, Front-end, developer, projetos, desenvolvedor">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Portuguese">
+    <meta name="revisit-after" content="30 days">
+    <meta name="author" content="Silas Barcelos">
+    <meta property="og:title" content="Silas Barcelos | Portifolio">
+    <meta property="og:site_name" content="Silas Barcelos | Portifolio">
+    <meta property="og:url" content="https://silassbs.github.io/portifolio/">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://media-exp1.licdn.com/dms/image/C4D03AQEQfmiuXoiTKA/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=GVQ5bUq7umu3rEV0Fbiu4aDcOw486on60QMEk9sFmQs">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <title>Portifólio - Silas Barcelos</title>
     <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -15,10 +46,10 @@
                 <nav>
                     <ul>
                         <li><a href="#">Início</a></li>
-                        <li><a href="#">Habilidades</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </nav>
             </div>
@@ -30,18 +61,18 @@
                     <h2>Desenvolvedor Front-End</h2>
                     <div>
                         <div class="contato">
-                            <a href="https://github.com/silassbs"><img src="img/github.png"> Github</a>
+                            <a href="https://github.com/silassbs" target="_blank"><img src="img/github.png"> Github</a>
                         </div>
 
                         <div class="contato">
-                            <a href="#"><img src="img/linkedin.png"> Linkedin</a>
+                            <a href="https://www.linkedin.com/in/silas-barcelos/" target="_blank"><img src="img/linkedin.png"> Linkedin</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="habilidades bg-1">
+    <section class="habilidades bg-1" id="habilidades">
         <div class="container">
             <h3 class="subtitulo">Habilidades</h3>
             <div class="row" >
@@ -88,7 +119,7 @@
         </div>
     </section>
 
-    <section class="projetos bg-2">
+    <section class="projetos bg-2" id="projetos">
         
         <div class="container">
             <div class="row">
@@ -125,7 +156,7 @@
             </div>
         </div>
     </section>
-    <section class="projetos bg-3">
+    <!-- <section class="projetos bg-3">
         
         <div class="container">
             <div class="row column" >
@@ -159,14 +190,16 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="sobre bg-1">
+    </section> -->
+    <section class="sobre bg-1" id="sobre">
         <div class="container">
             <div class="row">
                 <h3 class="subtitulo">Sobre mim</h3>
             </div>
-            <div class="row">
-                <img src="img/silas-desenho.PNG" alt="">
+            <div class="row" >
+                <div class="col-12 ">
+                    <img src="img/silas-desenho.PNG" alt="">
+                </div>
             </div>
             
             <div class="row">
@@ -196,10 +229,10 @@
             <div class="row">
                 <div class="col-12 col-sm-4">
                     <ul>
-                        <li><a href="">Início</a></li>
-                        <li><a href="">Habilidades</a></li>
-                        <li><a href="">Projetos</a></li>
-                        <li><a href="">Sobre</a></li>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-sm-4">
