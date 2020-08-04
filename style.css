@@ -160,3 +160,40 @@ footer .container .row div:nth-child(3){}
 footer .container .row div:nth-child(3) span{background-color: #fff;color: #162457;width: 50px;height: 50px;display: inline-block;border-radius: 100%;text-align: center;font-size: 37px;vertical-align: middle;margin-right: 6px;}
 
 footer a img{width: 50px;} 
+
+
+
+@media (max-width: 480px){
+    .container{
+        width: 90%;
+    }
+    .intro{
+        height: 500px;
+        background-size: 0;
+    }
+    nav{
+        display: none;
+    }
+    .column{flex-direction: column;}
+    .habilidades .habilidades-lista ul li{
+
+font-size: 28px;
+
+height: auto;
+
+padding: 0;
+
+margin: 0;
+}
+
+    footer div{display: flex;justify-content: center;}
+    footer ul li a, footer .container .row div:nth-child(2){font-size: 30px;}
+    footer .container .row div:nth-child(3){font-size: 22px;}
+    .contato a{display: flex;
+        flex-direction: column;
+        align-items: center;}
+    .intro .contato {margin-top: 100px;}
+    .bg-1{height: auto;padding-bottom: 40px;}
+    .habilidades .row .habilidades-lista:nth-child(1) ul li{margin-top:0.3em}
+
+}
